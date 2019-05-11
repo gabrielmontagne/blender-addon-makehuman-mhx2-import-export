@@ -51,7 +51,8 @@ def encodeJsonData(data, pad=""):
             return "%.5g" % data
     elif isinstance(data, (int, np.int32, np.uint32)):
         return str(data)
-    elif isinstance(data, (str, unicode)):
+    # elif isinstance(data, (str, unicode)):
+    elif isinstance(data, (str)):
         return "\"%s\"" % data
     elif isinstance(data, (list, tuple, np.ndarray)):
         if leafList(data):
