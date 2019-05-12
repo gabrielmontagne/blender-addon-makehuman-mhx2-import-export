@@ -1,0 +1,15 @@
+= Makehuman / Makewalk import export on (as of today's) modern 2.80 Blender
+
+For those, who like me, are trying to piece it together and wished someone had somehow solved it before.
+
+To install (on a checked out version of Makehuman (`https://github.com/makehumancommunity/makehuman`)),
+Link the `9_export_mhx2` its plugins folder,
+
+On mine, for example, it looks like this,
+
+----
+(base) gabriel@timeo:~/Documents/makehuman/makehuman/plugins$ ls -l 9_export_mhx2
+lrwxrwxrwx 1 gabriel gabriel 81 May 11 16:32 9_export_mhx2 -> /home/gabriel/Documents/blender-addon-makehuman-mhx2-import-export/9_export_mhx2/
+----
+
+And then link (`ln -s`) each of the folders in `exjerto` to your `~/.config/blender/2.80/scripts/addons` folder.
