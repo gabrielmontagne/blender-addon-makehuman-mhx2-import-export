@@ -14,6 +14,8 @@ lrwxrwxrwx 1 gabriel gabriel 81 May 11 16:32 9_export_mhx2 -> /home/gabriel/Docu
 
 And then link (`ln -s`) each of the folders in `exjerto` to your `~/.config/blender/2.80/scripts/addons` folder.
 
+Then go to addons, search for `make` and turn on all them on (and save settings).
+
 '''
 
 Pieced together from the original
